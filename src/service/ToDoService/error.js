@@ -1,5 +1,5 @@
 const { StatusCodes } = require('http-status-codes');
-const createDefaultError = require('../../helpers/createDefaultError');
+const createDefaultError = require('../../helper/createDefaultError');
 
 module.exports = {
   invalidId: () => createDefaultError({
